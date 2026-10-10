@@ -1,0 +1,1 @@
+deal,position_id,symbol,type,entry,volume,price,deal_time,deal_ms,seen_server_time,seen_tick_time,seen_tick_ms,lag_clock_s,lag_tick_s,bid_seen,ask_seen,seen_local_time,source
