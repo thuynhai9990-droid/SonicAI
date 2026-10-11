@@ -1,8 +1,8 @@
 symbol=XAUUSD.f
 server=TMFinancials-Server
 company=T.M. Financials Ltd
-started_server_time=2026.10.08 00:16:10
-started_gmt=2026.10.07 21:16:10
+started_server_time=2026.10.10 21:02:52
+started_gmt=2026.10.10 18:02:52
 server_minus_gmt_seconds=10800
-history_starts=2026.06.26 01:00:11
+history_starts=2024.07.16 14:35:29
 timestamps_in_files=server time
