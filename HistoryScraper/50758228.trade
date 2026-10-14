@@ -9,21 +9,21 @@ margin_mode=ACCOUNT_MARGIN_MODE_RETAIL_HEDGING
 leverage=30
 trading_allowed_for_account=0
 experts_allowed_for_account=0
-balance=557.44
-equity=557.44
-exported_server_time=2026.10.13 00:00:46
-exported_gmt=2026.10.12 21:00:46
+balance=557.81
+equity=557.81
+exported_server_time=2026.10.14 00:00:43
+exported_gmt=2026.10.13 21:00:43
 server_minus_gmt_seconds=10800
 symbol_filter=
 magic_filter=-1
-positions=187
-deals=417
+positions=188
+deals=419
 orders=0
-trade_deals=374
-trade_deals_without_order=374
+trade_deals=376
+trade_deals_without_order=376
 open_positions_now=0
 pending_orders_now=0
-deals_first_seen_live_this_session=2
+deals_first_seen_live_this_session=4
 
 [SYMBOLS]
 symbol,description,path,digits,point,contract_size,volume_min,volume_step,volume_max,tick_size,tick_value,execution_mode,calc_mode,trade_mode,stops_level,spread_points_now,spread_floating
@@ -218,6 +218,7 @@ position_id,symbol,direction,magic,open_time,open_ms,close_time,close_ms,duratio
 103292796,XAUUSD.f,SELL,0,2026.10.09 09:54:11,314,2026.10.09 09:55:40,821,89.507,0.00041500,4194.87000,4196.66000,0.00000,0.00000,-0.0042,0.0000,0.0000,-0.07,-0.0784,MOBILE,1,1,CLOSED,"",""
 103296557,XAUUSD.f,SELL,0,2026.10.09 13:27:08,618,2026.10.09 13:57:48,153,1839.535,0.00083000,4185.73000,4183.08000,0.00000,0.00000,-0.0083,0.0000,0.0000,0.22,0.2117,MOBILE,1,1,CLOSED,"",""
 103313184,XAUUSD.f,SELL,0,2026.10.12 07:00:12,424,2026.10.12 07:59:13,652,3541.228,0.00041400,4203.54000,4196.52000,0.00000,0.00000,-0.0041,0.0000,0.0000,0.29,0.2865,MOBILE,1,1,CLOSED,"",""
+103365479,XAUUSD.f,BUY,0,2026.10.13 06:55:09,081,2026.10.13 07:21:09,423,1560.342,0.00082900,4186.63000,4191.26000,0.00000,0.00000,-0.0083,0.0000,0.0000,0.38,0.3755,MOBILE,1,1,CLOSED,"",""
 
 [DEALS]
 ticket,order,position_id,time,ms,symbol,type,entry,reason,volume,price,sl,tp,commission,fee,swap,profit,magic,comment,external_id
@@ -638,6 +639,8 @@ ticket,order,position_id,time,ms,symbol,type,entry,reason,volume,price,sl,tp,com
 240199230,0,0,2026.10.10 08:39:43,048,,BALANCE,IN,CLIENT,0.00000000,0.00000,0.00000,0.00000,0.0000,0.0000,0.0000,-0.25,0,"PF Deduction",""
 241991370,0,103313184,2026.10.12 07:00:12,424,XAUUSD.f,SELL,IN,MOBILE,0.00041400,4203.54000,0.00000,0.00000,0.0000,0.0000,0.0000,0.00,0,"",""
 241991498,0,103313184,2026.10.12 07:59:13,652,XAUUSD.f,BUY,OUT,MOBILE,0.00041400,4196.52000,0.00000,0.00000,-0.0041,0.0000,0.0000,0.29,0,"",""
+243746032,0,103365479,2026.10.13 06:55:09,081,XAUUSD.f,BUY,IN,MOBILE,0.00082900,4186.63000,0.00000,0.00000,0.0000,0.0000,0.0000,0.00,0,"",""
+243746160,0,103365479,2026.10.13 07:21:09,423,XAUUSD.f,SELL,OUT,MOBILE,0.00082900,4191.26000,0.00000,0.00000,-0.0083,0.0000,0.0000,0.38,0,"",""
 
 [ORDERS]
 ticket,position_id,time_setup,setup_ms,time_done,done_ms,symbol,type,state,reason,volume_initial,volume_current,price_open,price_stoplimit,sl,tp,price_current,magic,comment
@@ -646,4 +649,6 @@ ticket,position_id,time_setup,setup_ms,time_done,done_ms,symbol,type,state,reaso
 deal,position_id,symbol,type,entry,volume,price,deal_time,deal_ms,seen_server_time,seen_tick_time,seen_tick_ms,lag_clock_s,lag_tick_s,bid_seen,ask_seen,seen_local_time,source
 241991370,103313184,XAUUSD.f,SELL,IN,0.00041400,4203.54000,2026.10.12 07:00:12,424,2026.10.12 08:10:54,2026.10.12 08:10:54,774,4242,4242.350,4192.52000,4192.82000,2026.10.12 01:10:54,LIVE_EVENT
 241991498,103313184,XAUUSD.f,BUY,OUT,0.00041400,4196.52000,2026.10.12 07:59:13,652,2026.10.12 08:10:55,2026.10.12 08:10:54,774,702,701.122,4192.52000,4192.82000,2026.10.12 01:10:55,LIVE_EVENT
+243746032,103365479,XAUUSD.f,BUY,IN,0.00082900,4186.63000,2026.10.13 06:55:09,081,2026.10.13 07:33:26,2026.10.13 07:33:26,058,2297,2296.977,4191.15000,4191.45000,2026.10.13 00:33:26,LIVE_EVENT
+243746160,103365479,XAUUSD.f,SELL,OUT,0.00082900,4191.26000,2026.10.13 07:21:09,423,2026.10.13 07:33:26,2026.10.13 07:33:26,058,737,736.635,4191.15000,4191.45000,2026.10.13 00:33:26,LIVE_EVENT
 
